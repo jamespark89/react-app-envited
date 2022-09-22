@@ -8,8 +8,10 @@
   min-height: 100vh;
   padding-bottom: 1rem;
 }
-.header {
+hearder {
   margin-top: 94px;
+}
+.header {
   text-align: center;
   color: var(--primary-dark-purple);
   font-family: Arial, Helvetica, sans-serif;
@@ -59,4 +61,10 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+  .home {
+    flex-direction: row;
+  }
 }

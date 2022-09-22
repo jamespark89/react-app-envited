@@ -1,5 +1,5 @@
 import "./home.css"
-function home() {
+function Home() {
   return (
     <div className="home">
       <header>
@@ -32,4 +32,4 @@ function home() {
   )
 }
 
-export default home
+export default Home
