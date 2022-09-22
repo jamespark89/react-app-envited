@@ -1,3 +1,26 @@
-body {
+:root {
+  --primary-dark-purple: #240d57;
+  --primary-blue-purple: #501fc1;
+  --primary-purple: #8456ec;
+  --primary-pink-purple: #e87bf8;
+  --secondary-light-purple: #ccb6ff;
+  --secondary-xlight-purple: #ede5ff;
+  --secondary-xxlight-purple: #f6f2ff;
+  --alert-pink: #ffd7e0;
+  --alert-red: #e61445;
+  --alert-light-green: #d3ffe2;
+  --neutrals-dark: #4f4f4f;
+  --neutrals-dark-grey: #828282;
+  --neutrals-grey: #bdbdbd;
+  --neutrals-light-grey: #e0e0e0;
+  --neutrals-xlight-grey: #f2f2f2;
+  --neutrals-light-light: #bdbdbd;
+}
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
 }

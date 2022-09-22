@@ -1,9 +1,9 @@
 import "./App.css"
 import { Routes, Route } from "react-router-dom"
-import Home from "./pages/home"
-import Create from "./pages/create"
-import Edit from "./pages/edit"
-import Event from "./pages/event"
+import Home from "./pages/home/home"
+import Create from "./pages/create/create"
+import Edit from "./pages/edit/edit"
+import Event from "./pages/event/event"
 
 function App() {
   return (

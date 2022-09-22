@@ -1,0 +1,62 @@
+@import "../../index.css";
+
+.home {
+  background-color: var(--secondary-xxlight-purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 1rem;
+}
+.header {
+  margin-top: 94px;
+  text-align: center;
+  color: var(--primary-dark-purple);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  padding-bottom: 1rem;
+  /* text-shadow: 1px 5px 5px var(--neutrals-grey); */
+}
+.landingpageimage {
+  margin: 2rem;
+  width: 50%;
+}
+.subtitle > p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: --var(--neutrals-dark);
+  font-size: 16px;
+  text-align: center;
+  text-shadow: 5px 5px 5px var(--neutrals-grey);
+}
+.snapchat {
+  background: linear-gradient(
+    90deg,
+    rgba(132, 86, 236, 1) 0%,
+    rgba(176, 102, 241, 1) 51%,
+    rgba(232, 123, 248, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.createButton {
+  color: white;
+  width: 187px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 86, 236, 1) 0%,
+    rgba(232, 123, 248, 1) 100%
+  );
+}
+.createButton > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
