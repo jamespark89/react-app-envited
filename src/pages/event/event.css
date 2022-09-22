@@ -1,0 +1,46 @@
+@import "../../index.css";
+.event {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.eventTitle {
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.eventTitle > p {
+  color: var(--neutrals-dark-grey);
+  margin-top: 4px;
+}
+.eventLists {
+  margin-top: 24px;
+}
+.eventList {
+  padding: 8px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+}
+.calendarIcon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 10px var(--neutrals-grey);
+}
+
+.eventInfo {
+  margin: 10px;
+}
+.eventInfo > p:nth-child(1) {
+  font-weight: bold;
+}
+.eventInfo > p:nth-child(2) {
+  font-size: 14px;
+  color: var(--neutrals-dark);
+}
+
+.angleIcon {
+  margin-left: auto;
+}

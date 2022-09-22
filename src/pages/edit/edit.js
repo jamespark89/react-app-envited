@@ -1,5 +1,6 @@
-function edit() {
+import "./edit.css"
+function Edit() {
   return <div>edit</div>
 }
 
-export default edit
+export default Edit
